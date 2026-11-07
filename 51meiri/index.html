@@ -1,0 +1,1385 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>51每日大赛国内最新入口-每日大赛实时赛程_参赛指南与热门榜单</title>
+    <meta name="description" content="51每日大赛国内最新入口：提供每日大赛实时赛程、参赛作品推荐、热门排行榜与新手参赛指南。追踪最新动态、深度解析赛制与选手表现，一站式获取每日大赛国内最新入口资讯。">
+    <meta name="keywords" content="51每日大赛国内最新入口,每日大赛赛程,每日大赛排行榜,每日大赛参赛指南,51每日大赛">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23ff4d6d'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-weight='bold'%3E51%3C/text%3E%3C/svg%3E">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #ff4d6d;
+            --primary-dark: #c9184a;
+            --primary-light: #ffb3c1;
+            --secondary: #2d1b2e;
+            --bg-body: #fef6f7;
+            --bg-card: #ffffff;
+            --text-main: #1e1a1d;
+            --text-sub: #5a4a4e;
+            --text-muted: #8f7a7e;
+            --border-light: #f0e4e7;
+            --shadow-sm: 0 4px 12px rgba(200, 60, 80, 0.08);
+            --shadow-md: 0 8px 24px rgba(200, 60, 80, 0.12);
+            --radius-sm: 12px;
+            --radius-md: 18px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+            --max-width: 1200px;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            font-size: 16px;
+        }
+
+        .site-container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ========== 顶部导航 ========== */
+        .top-nav {
+            background: #ffffff;
+            border-bottom: 1px solid var(--border-light);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(8px);
+            background: rgba(255, 255, 255, 0.92);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 12px 0;
+            gap: 12px;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+            font-size: 1.4rem;
+            color: var(--primary-dark);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+            flex-shrink: 0;
+        }
+
+        .brand-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 900;
+            box-shadow: 0 6px 14px rgba(255, 77, 109, 0.3);
+        }
+
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 18px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-sub);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-dark);
+            border-bottom-color: var(--primary);
+        }
+
+        .nav-action {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-ghost {
+            padding: 8px 18px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 1.5px solid var(--primary-light);
+            background: transparent;
+            color: var(--primary-dark);
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-ghost:hover {
+            background: #fff0f3;
+            border-color: var(--primary);
+        }
+
+        .btn-primary {
+            padding: 8px 22px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(255, 77, 109, 0.3);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 18px rgba(255, 77, 109, 0.4);
+        }
+
+        /* ========== 首屏 Banner ========== */
+        .hero-banner {
+            background: linear-gradient(120deg, #2d1b2e 0%, #4a1e2e 60%, #7a2a3a 100%);
+            border-radius: var(--radius-xl);
+            margin: 28px 0 32px;
+            padding: 48px 40px;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        .hero-banner::after {
+            content: '';
+            position: absolute;
+            top: -40px;
+            right: -60px;
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(255, 77, 109, 0.35), transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-banner h1 {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+
+        .hero-banner h1 span {
+            background: linear-gradient(90deg, #ffb3c1, #ff4d6d);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .hero-desc {
+            font-size: 1.05rem;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 650px;
+            margin-bottom: 28px;
+            position: relative;
+            z-index: 2;
+            line-height: 1.7;
+        }
+
+        .hero-search-box {
+            display: flex;
+            max-width: 540px;
+            background: rgba(255, 255, 255, 0.14);
+            border-radius: 60px;
+            padding: 6px;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 2;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .hero-search-box input {
+            flex: 1;
+            padding: 14px 22px;
+            border: none;
+            background: transparent;
+            color: #fff;
+            font-size: 0.95rem;
+            outline: none;
+            font-family: var(--font-sans);
+        }
+
+        .hero-search-box input::placeholder {
+            color: rgba(255, 255, 255, 0.55);
+        }
+
+        .hero-search-box button {
+            padding: 12px 30px;
+            background: var(--primary);
+            border: none;
+            border-radius: 60px;
+            color: #fff;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: nowrap;
+            font-size: 0.95rem;
+        }
+
+        .hero-search-box button:hover {
+            background: var(--primary-light);
+            color: var(--primary-dark);
+        }
+
+        .hero-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 14px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-tags a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 6px 18px;
+            border-radius: 40px;
+            font-size: 0.88rem;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.2s;
+        }
+
+        .hero-tags a:hover {
+            background: rgba(255, 255, 255, 0.22);
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        /* ========== 通用 Section ========== */
+        .section {
+            margin-bottom: 48px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 22px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: var(--text-main);
+            position: relative;
+        }
+
+        .section-title::before {
+            content: '';
+            display: inline-block;
+            width: 6px;
+            height: 24px;
+            background: linear-gradient(180deg, var(--primary), var(--primary-dark));
+            border-radius: 6px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .section-more {
+            color: var(--primary-dark);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .section-more:hover {
+            border-bottom-color: var(--primary);
+        }
+
+        .sub-text {
+            color: var(--text-sub);
+            font-size: 0.95rem;
+            margin-top: -10px;
+            margin-bottom: 22px;
+            line-height: 1.7;
+        }
+
+        /* ========== 卡片网格 ========== */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            padding: 20px 22px;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s, box-shadow 0.25s;
+            border: 1px solid rgba(240, 228, 231, 0.6);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .card-tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+
+        .tag {
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 30px;
+            background: #fef0f3;
+            color: var(--primary-dark);
+            letter-spacing: 0.02em;
+        }
+
+        .tag.alt {
+            background: #f0f0ff;
+            color: #4b3f8a;
+        }
+
+        .tag.hot {
+            background: #fff3e0;
+            color: #b45b1a;
+        }
+
+        .card h3 {
+            font-size: 1.08rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            line-height: 1.4;
+            color: var(--text-main);
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            line-height: 1.65;
+            flex: 1;
+            margin-bottom: 12px;
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-light);
+            padding-top: 12px;
+            margin-top: auto;
+        }
+
+        .card-meta .hot-value {
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        /* 横向列表卡片 */
+        .list-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            background: #fff;
+            border-radius: var(--radius-md);
+            padding: 18px 22px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-light);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .list-card:hover {
+            transform: translateX(4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .list-index {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--primary-light);
+            min-width: 44px;
+            line-height: 1.2;
+        }
+
+        .list-content h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .list-content p {
+            font-size: 0.88rem;
+            color: var(--text-sub);
+            margin-bottom: 6px;
+            line-height: 1.6;
+        }
+
+        .list-meta {
+            display: flex;
+            gap: 14px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+        }
+
+        /* 分类标签云 */
+        .category-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .category-cloud a {
+            background: #fff;
+            padding: 10px 24px;
+            border-radius: 60px;
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 0.9rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-light);
+            transition: all 0.2s;
+        }
+
+        .category-cloud a:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(255, 77, 109, 0.25);
+        }
+
+        /* 深度解析正文 */
+        .article-body {
+            background: #fff;
+            border-radius: var(--radius-lg);
+            padding: 36px 40px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-light);
+            line-height: 1.8;
+        }
+
+        .article-body h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin: 32px 0 16px;
+            color: var(--text-main);
+            letter-spacing: -0.01em;
+        }
+
+        .article-body h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .article-body p {
+            margin-bottom: 18px;
+            color: var(--text-sub);
+            font-size: 1rem;
+        }
+
+        .article-body strong {
+            color: var(--primary-dark);
+            font-weight: 700;
+        }
+
+        /* FAQ 手风琴 */
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .faq-item {
+            background: #fff;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            transition: box-shadow 0.2s;
+        }
+
+        .faq-item:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .faq-question {
+            padding: 18px 24px;
+            font-weight: 700;
+            font-size: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            background: #fff;
+            transition: background 0.2s;
+            color: var(--text-main);
+        }
+
+        .faq-question:hover {
+            background: #fffafb;
+        }
+
+        .faq-question span {
+            color: var(--primary-dark);
+            font-size: 1.2rem;
+            font-weight: 300;
+            transition: transform 0.2s;
+        }
+
+        .faq-answer {
+            padding: 0 24px 20px;
+            color: var(--text-sub);
+            font-size: 0.95rem;
+            line-height: 1.75;
+            border-top: 1px solid transparent;
+        }
+
+        /* 评论 */
+        .comment-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .comment-item {
+            background: #fff;
+            border-radius: var(--radius-sm);
+            padding: 18px 24px;
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .comment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .comment-user {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .user-avatar {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-light), var(--primary));
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .comment-time {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .comment-text {
+            font-size: 0.92rem;
+            color: var(--text-sub);
+            line-height: 1.7;
+        }
+
+        /* 资讯卡片 */
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .news-item {
+            background: #fff;
+            border-radius: var(--radius-sm);
+            padding: 20px 24px;
+            border-left: 4px solid var(--primary);
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .news-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .news-date {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .news-item h4 {
+            font-size: 1.02rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: var(--text-main);
+            line-height: 1.4;
+        }
+
+        .news-item p {
+            font-size: 0.88rem;
+            color: var(--text-sub);
+            line-height: 1.65;
+        }
+
+        /* 页脚 */
+        .site-footer {
+            background: #1e1a1d;
+            color: rgba(255, 255, 255, 0.65);
+            padding: 48px 0 32px;
+            margin-top: 60px;
+            border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+        }
+
+        .footer-inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 32px;
+        }
+
+        .footer-brand {
+            max-width: 320px;
+        }
+
+        .footer-brand .brand-logo {
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand p {
+            font-size: 0.88rem;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 48px;
+            flex-wrap: wrap;
+        }
+
+        .footer-col h5 {
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+        }
+
+        .footer-col a {
+            display: block;
+            color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover {
+            color: var(--primary-light);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 36px;
+            padding-top: 22px;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.35);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        /* 响应式 */
+        @media (max-width: 900px) {
+            .grid-3 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .grid-4 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-banner {
+                padding: 32px 24px;
+            }
+
+            .article-body {
+                padding: 24px 22px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .grid-3,
+            .grid-4,
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav-links {
+                gap: 4px 12px;
+            }
+
+            .hero-banner h1 {
+                font-size: 1.6rem;
+            }
+
+            .hero-search-box {
+                flex-direction: column;
+                background: transparent;
+                padding: 0;
+                gap: 10px;
+                backdrop-filter: none;
+                border: none;
+            }
+
+            .hero-search-box input {
+                background: rgba(255, 255, 255, 0.14);
+                border-radius: 60px;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                padding: 14px 20px;
+            }
+
+            .hero-search-box button {
+                width: 100%;
+                padding: 14px;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+            }
+
+            .footer-links {
+                gap: 28px;
+            }
+
+            .comment-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .list-card {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+
+        /* 辅助 */
+        .mb-0 {
+            margin-bottom: 0;
+        }
+
+        .mt-2 {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 顶部导航 -->
+    <header class="top-nav">
+        <div class="site-container nav-inner">
+            <a href="/#hero" class="brand-logo">
+                <span class="brand-icon">51</span>
+                <span>每日大赛</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/#hero">首页</a></li>
+                    <li><a href="/#hot">热门推荐</a></li>
+                    <li><a href="/#latest">最新动态</a></li>
+                    <li><a href="/#categories">分类入口</a></li>
+                    <li><a href="/#deep-dive">深度解析</a></li>
+                    <li><a href="/#faq">常见问题</a></li>
+                    <li><a href="/#comments">用户评论</a></li>
+                </ul>
+            </nav>
+            <div class="nav-action">
+                <a href="/#subscribe" class="btn-ghost">订阅更新</a>
+                <a href="/#hero" class="btn-primary">进入大赛</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-container">
+
+        <!-- 首屏 Banner -->
+        <section id="hero" class="hero-banner">
+            <h1>51每日大赛国内最新入口：<span>实时赛程·热门榜单·参赛指南</span></h1>
+            <p class="hero-desc">
+                一站式追踪每日大赛国内最新入口动态，汇聚当日热门参赛作品、实时排行榜与选手表现解析。无论你是围观群众还是准备上场，这里都有你需要的赛程入口与精选内容。
+            </p>
+            <div class="hero-search-box">
+                <input type="text" placeholder="搜索大赛名称、选手昵称或作品关键词...">
+                <button>搜索</button>
+            </div>
+            <div class="hero-tags">
+                <a href="/#hot">🔥 今日热门赛</a>
+                <a href="/#latest">📋 最新赛程</a>
+                <a href="/#rank">🏆 实时榜单</a>
+                <a href="/#guide">📖 参赛指南</a>
+                <a href="/#categories">🗂 分类入口</a>
+                <a href="/#faq">❓ 常见问题</a>
+                <a href="/#news">📰 大赛资讯</a>
+            </div>
+        </section>
+
+        <!-- 热门推荐 -->
+        <section id="hot" class="section">
+            <div class="section-header">
+                <h2 class="section-title">热门内容推荐</h2>
+                <a href="/#latest" class="section-more">查看全部 →</a>
+            </div>
+            <p class="sub-text">根据近24小时用户访问与互动热度综合排序，展示当前最受关注的每日大赛参赛作品与赛程节点。</p>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-tag-row">
+                        <span class="tag hot">热门赛</span>
+                        <span class="tag alt">才艺</span>
+                        <span class="tag">今晚开赛</span>
+                    </div>
+                    <h3>星耀才艺夜·第48期</h3>
+                    <p>本周人气最高的才艺类赛道，参赛选手涵盖街舞、民乐与创意表演。今晚20:00截止投票，竞争异常激烈。</p>
+                    <div class="card-meta"><span>🔥 热度 9.8w</span><span>今晚 20:00</span></div>
+                </div>
+                <div class="card">
+                    <div class="card-tag-row">
+                        <span class="tag hot">飙升</span>
+                        <span class="tag alt">知识竞技</span>
+                        <span class="tag">限时挑战</span>
+                    </div>
+                    <h3>脑力突围赛·11月场</h3>
+                    <p>限时答题与策略对抗结合的新赛制，本轮题目难度升级。目前排行榜前五名分差极小，随时可能翻盘。</p>
+                    <div class="card-meta"><span>🔥 热度 8.2w</span><span>进行中</span></div>
+                </div>
+                <div class="card">
+                    <div class="card-tag-row">
+                        <span class="tag hot">编辑推荐</span>
+                        <span class="tag alt">创意作品</span>
+                        <span class="tag">投票中</span>
+                    </div>
+                    <h3>造物者大赛·秋季赛</h3>
+                    <p>手工与设计类作品的集中展示赛，入围作品风格多元。本周开放大众投票，适合喜欢挖掘宝藏创作者的观众。</p>
+                    <div class="card-meta"><span>🔥 热度 7.6w</span><span>截止11月10日</span></div>
+                </div>
+                <div class="card">
+                    <div class="card-tag-row">
+                        <span class="tag hot">新赛上线</span>
+                        <span class="tag alt">电竞</span>
+                        <span class="tag">组队报名</span>
+                    </div>
+                    <h3>峡谷争霸·5v5团队赛</h3>
+                    <p>面向普通玩家的团队竞技赛，强调配合与战术。目前处于报名阶段，已有超过300支队伍提交参赛申请。</p>
+                    <div class="card-meta"><span>🔥 热度 7.1w</span><span>报名中</span></div>
+                </div>
+                <div class="card">
+                    <div class="card-tag-row">
+                        <span class="tag hot">口碑好</span>
+                        <span class="tag alt">生活记录</span>
+                        <span class="tag">慢节奏</span>
+                    </div>
+                    <h3>城市切片·生活影像赛</h3>
+                    <p>以3-5分钟短片记录城市日常，参赛作品充满烟火气。适合喜欢慢节奏纪实内容的观众，目前已有42部作品入围。</p>
+                    <div class="card-meta"><span>🔥 热度 6.4w</span><span>展映中</span></div>
+                </div>
+                <div class="card">
+                    <div class="card-tag-row">
+                        <span class="tag hot">冲刺阶段</span>
+                        <span class="tag alt">音乐</span>
+                        <span class="tag">原创</span>
+                    </div>
+                    <h3>原创音乐擂台·第7轮</h3>
+                    <p>选手提交原创demo进行擂台比拼，本轮主题为“城市与风”。评委点评环节将在明晚直播，值得关注。</p>
+                    <div class="card-meta"><span>🔥 热度 5.9w</span><span>明晚 21:00</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 最新更新 -->
+        <section id="latest" class="section">
+            <div class="section-header">
+                <h2 class="section-title">最新更新 / 热门动态</h2>
+                <a href="/#news" class="section-more">更多动态 →</a>
+            </div>
+            <p class="sub-text">2026年11月7日 大赛相关更新汇总，包含新赛上线、赛程调整与结果公布。</p>
+            <div class="grid-2">
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">01</div>
+                    <div class="list-content">
+                        <h4>星耀才艺夜·第48期 投票通道开启</h4>
+                        <p>今晚20:00正式开放大众投票，每人限投3票。本轮主题为“国风新演绎”。</p>
+                        <div class="list-meta"><span>2026-11-07 18:30</span><span>赛程</span></div>
+                    </div>
+                </a>
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">02</div>
+                    <div class="list-content">
+                        <h4>脑力突围赛 第11月场 题库更新</h4>
+                        <p>新增逻辑推理与快速反应题型，难度较上期提升约15%。目前已有1.2万人参与。</p>
+                        <div class="list-meta"><span>2026-11-07 16:10</span><span>赛制</span></div>
+                    </div>
+                </a>
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">03</div>
+                    <div class="list-content">
+                        <h4>造物者大赛秋季赛 入围名单公布</h4>
+                        <p>共36件作品进入大众投票环节，涵盖木艺、编织、模型制作等类别。</p>
+                        <div class="list-meta"><span>2026-11-07 14:00</span><span>结果</span></div>
+                    </div>
+                </a>
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">04</div>
+                    <div class="list-content">
+                        <h4>峡谷争霸 5v5 报名队伍突破300支</h4>
+                        <p>赛事组委会宣布报名截止时间延长至11月10日24:00，未组队的玩家仍可加入。</p>
+                        <div class="list-meta"><span>2026-11-07 11:45</span><span>报名</span></div>
+                    </div>
+                </a>
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">05</div>
+                    <div class="list-content">
+                        <h4>城市切片 生活影像赛 新增展映场次</h4>
+                        <p>因投稿量超出预期，主办方增加11月12日线下展映场，免费预约入场。</p>
+                        <div class="list-meta"><span>2026-11-07 10:20</span><span>展映</span></div>
+                    </div>
+                </a>
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">06</div>
+                    <div class="list-content">
+                        <h4>原创音乐擂台 第7轮 评委阵容公布</h4>
+                        <p>本轮邀请三位独立音乐人担任评审，直播点评环节将在明晚21:00进行。</p>
+                        <div class="list-meta"><span>2026-11-06 20:30</span><span>评审</span></div>
+                    </div>
+                </a>
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">07</div>
+                    <div class="list-content">
+                        <h4>每日大赛国内最新入口 页面功能优化</h4>
+                        <p>新增赛程筛选与收藏功能，移动端浏览体验同步提升，方便用户快速查找感兴趣的比赛。</p>
+                        <div class="list-meta"><span>2026-11-06 15:00</span><span>产品</span></div>
+                    </div>
+                </a>
+                <a href="/#hero" class="list-card">
+                    <div class="list-index">08</div>
+                    <div class="list-content">
+                        <h4>11月8日 多场赛事时间冲突提醒</h4>
+                        <p>才艺夜与脑力赛时间部分重叠，建议提前规划观看顺序，投票截止时间也较为接近。</p>
+                        <div class="list-meta"><span>2026-11-06 12:15</span><span>提醒</span></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- 分类入口 -->
+        <section id="categories" class="section">
+            <div class="section-header">
+                <h2 class="section-title">分类入口</h2>
+                <a href="/#hero" class="section-more">全部类别 →</a>
+            </div>
+            <p class="sub-text">按大赛类型快速定位感兴趣的内容，每个分类下均包含最新赛程与热门作品。</p>
+            <div class="category-cloud">
+                <a href="/#hot">🎭 才艺表演</a>
+                <a href="/#hot">🧠 知识竞技</a>
+                <a href="/#hot">🎨 创意设计</a>
+                <a href="/#hot">🎮 电子竞技</a>
+                <a href="/#hot">🎵 音乐擂台</a>
+                <a href="/#hot">📹 影像记录</a>
+                <a href="/#hot">💬 语言辩论</a>
+                <a href="/#hot">🏃 体能挑战</a>
+            </div>
+        </section>
+
+        <!-- 深度解析 -->
+        <section id="deep-dive" class="section">
+            <div class="section-header">
+                <h2 class="section-title">深度解析：每日大赛的吸引力与参赛逻辑</h2>
+            </div>
+            <div class="article-body">
+                <h2>一、每日大赛的题材特点与内容吸引力</h2>
+                <p>
+                    <strong>51每日大赛国内最新入口</strong>所聚合的赛事内容，本质上是一种“短周期、高频率、强互动”的竞技内容形态。与传统大型赛事不同，每日大赛将比赛周期压缩到一天至一周，参赛门槛更低、反馈更即时，观众和选手之间的互动也更紧密。这种节奏天然适合碎片化消费，也容易形成持续关注的习惯。
+                </p>
+                <p>
+                    从题材上看，每日大赛覆盖才艺、知识、创意、电竞、音乐等多个方向，既有观赏性强的表演类赛道，也有参与感强的答题与策略对抗。不同赛道之间的观众画像差异明显，但共同点是：<strong>赛程紧凑、结果悬念大、讨论氛围浓</strong>。对于内容消费者来说，每天打开页面都有新东西可看，不容易产生审美疲劳。
+                </p>
+
+                <h2>二、人物与选手分析：谁在参加每日大赛</h2>
+                <p>
+                    参赛选手的来源非常多元。一部分是长期活跃在垂直领域的爱好者，他们参加每日大赛是为了获得曝光与同好认可；另一部分是纯粹被赛制吸引的新手，抱着“试一试”的心态报名。从近几期的选手表现来看，<strong>跨界参赛</strong>的比例在上升——比如才艺赛道中出现程序员的脱口秀表演，知识赛道里有手工匠人展示逻辑推理能力。这种混搭感反而成了每日大赛的独特看点。
+                </p>
+                <p>
+                    值得关注的是，部分选手已经形成了稳定的个人风格。例如才艺夜中的几位常驻选手，每次带来的表演类型不同但气质统一，观众甚至会在评论区讨论“这次他会选什么方向”。这种人物弧光的积累，让短周期赛事也具备了连续追看的价值。
+                </p>
+
+                <h2>三、节奏与消费体验：为什么适合每天刷一刷</h2>
+                <p>
+                    每日大赛的节奏设计非常讲究。以才艺夜为例，从报名、初筛、投票到结果公布，整个过程压缩在48小时内完成。观众不需要追更几个月，当天就能看到完整的故事线。这种“短平快”的消费体验，恰好契合了当下用户对即时满足的需求。
+                </p>
+                <p>
+                    另一方面，<strong>51每日大赛国内最新入口</strong>页面本身的信息架构也围绕“快速获取”来设计。赛程列表、实时榜单、热门推荐和评论区被放在首屏附近，用户不需要反复跳转就能掌握全局。对于移动端用户，卡片式布局和筛选标签进一步降低了浏览成本。
+                </p>
+
+                <h2>四、适合人群与同类内容比较</h2>
+                <p>
+                    每日大赛的核心受众大致分为三类：一是寻找轻松娱乐内容的泛用户，二是垂直领域的深度爱好者，三是想要参与但还在观望的潜在选手。对于第一类用户，才艺与创意赛道最友好；第二类用户更关注赛制细节与选手表现；第三类用户则可以从参赛指南和FAQ中获得实用信息。
+                </p>
+                <p>
+                    与长周期综艺或专业赛事相比，每日大赛的优势在于<strong>决策成本低</strong>——你不需要补课，随时可以从当天场次开始看。劣势则是单场深度有限，更适合“浅尝”而非“深挖”。因此，本页面在提供即时赛程的同时，也保留了深度解析与背景资料，兼顾两种消费习惯。
+                </p>
+
+                <h2>五、搜索“51每日大赛国内最新入口”的用户真正想找什么</h2>
+                <p>
+                    从搜索意图来看，用户通常希望快速找到三样东西：<strong>当前正在进行的比赛</strong>、<strong>最新赛程与结果</strong>、<strong>可靠的入口导航</strong>。因此，本页面将赛程列表与热门推荐放在靠前位置，并在导航和Banner中直接提供分类入口，减少用户寻找路径。同时，FAQ部分覆盖了参赛资格、投票规则等高频疑问，进一步降低信息获取门槛。
+                </p>
+                <p>
+                    总体而言，每日大赛的价值不仅在于比赛本身，更在于它构建了一个低门槛、高频次的竞技内容生态。而一个结构清晰、信息完整的聚合页面，正是连接用户与这个生态的关键节点。
+                </p>
+            </div>
+        </section>
+
+        <!-- 体验指南 -->
+        <section id="guide" class="section">
+            <div class="section-header">
+                <h2 class="section-title">体验指南：如何高效使用本页面</h2>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>📌 快速定位赛程</h3>
+                    <p>通过顶部导航或分类入口直接跳转到目标赛事类别。每个分类下均按时间排序，最新场次优先展示。</p>
+                </div>
+                <div class="card">
+                    <h3>📱 移动端友好</h3>
+                    <p>页面针对手机屏幕做了适配，卡片自动切换为单列布局，搜索框和按钮加大触控区域，浏览更轻松。</p>
+                </div>
+                <div class="card">
+                    <h3>🔔 收藏与追更</h3>
+                    <p>遇到感兴趣的赛事可以关注页面更新。最新动态栏目会汇总近期赛程变化与结果公布，方便回头查看。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="section">
+            <div class="section-header">
+                <h2 class="section-title">常见问题</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">“51每日大赛国内最新入口”页面主要提供什么内容？<span>+</span></div>
+                    <div class="faq-answer">本页面聚合每日大赛的实时赛程、热门参赛作品、排行榜与参赛指南。你可以在这里找到当天正在进行的比赛、即将开始的场次以及往期结果回顾，同时获取参赛规则与常见疑问的解答。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">每日大赛一般多久更新一次赛程？<span>+</span></div>
+                    <div class="faq-answer">不同赛道更新频率不同。才艺类与知识类通常每日或隔日更新，创意设计类以周为单位，电竞赛事则按赛季分批更新。页面“最新动态”栏目会汇总近期更新，建议定期查看。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">如何参与每日大赛的投票？<span>+</span></div>
+                    <div class="faq-answer">投票入口通常在各赛事的详情页内开放，部分赛事需要登录账号。投票时间、票数限制与截止节点会在赛程卡片中标注，请留意具体场次说明。本页面不直接提供投票功能，但会提示投票开放状态。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">想报名参赛需要准备什么？<span>+</span></div>
+                    <div class="faq-answer">一般需要准备个人或团队基本信息、参赛作品或表演内容说明。部分赛道有年龄或地域限制，具体以各赛事报名页为准。本页面的参赛指南模块会整理通用注意事项，帮助你先了解流程再决定是否报名。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">页面上的排行榜是实时更新的吗？<span>+</span></div>
+                    <div class="faq-answer">热门推荐与排行榜数据按照固定周期更新（通常为每小时或每半小时），并非秒级实时。对于投票类赛事，最终结果以主办方公布为准。建议将页面作为趋势参考，而非唯一依据。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">类似“每日大赛”的内容还有哪些推荐？<span>+</span></div>
+                    <div class="faq-answer">如果你喜欢短周期竞技内容，可以关注本页面分类中的其他赛道，如脑力突围赛、原创音乐擂台等。此外，页面底部的相关资讯也会推荐近期值得一看的赛事与作品，适合作为扩展浏览的起点。</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 用户评论 -->
+        <section id="comments" class="section">
+            <div class="section-header">
+                <h2 class="section-title">用户评论</h2>
+                <a href="/#hero" class="section-more">参与讨论 →</a>
+            </div>
+            <div class="comment-list">
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">L</span> 林小满</div>
+                        <span class="comment-time">2026-11-07 19:12</span>
+                    </div>
+                    <p class="comment-text">才艺夜这期国风主题太对味了，有几个表演编排很用心。投票通道刚开我就投了，希望喜欢的那组能进前三。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">D</span> 大橘为重</div>
+                        <span class="comment-time">2026-11-07 18:45</span>
+                    </div>
+                    <p class="comment-text">脑力赛的题目难度确实上来了，我试着做了一下第7题完全没思路。排行榜前几名分数咬得很紧，今晚估计要变天。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">K</span> Kiko不是奇犽</div>
+                        <span class="comment-time">2026-11-07 17:30</span>
+                    </div>
+                    <p class="comment-text">城市切片那个影像赛我追了两期，整体质量比预期高很多。有几部短片拍得挺真诚的，就是展映场次太少，预约要抢。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">C</span> 陈二狗</div>
+                        <span class="comment-time">2026-11-07 16:22</span>
+                    </div>
+                    <p class="comment-text">峡谷争霸报名延长了，还差两个人组队，有没有一起的？水平一般，主要想体验一下比赛氛围。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">Y</span> 一只小柚</div>
+                        <span class="comment-time">2026-11-07 15:08</span>
+                    </div>
+                    <p class="comment-text">造物者大赛的入围作品刷了一遍，手工区有几个模型做得太精致了。不过投票页面加载有点慢，希望能优化一下。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">S</span> 三水木</div>
+                        <span class="comment-time">2026-11-07 13:50</span>
+                    </div>
+                    <p class="comment-text">原创音乐擂台第7轮的主题是“城市与风”，这个命题挺宽的。目前听到几首demo都偏民谣，不知道明晚评委怎么点评。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">B</span> 半糖去冰</div>
+                        <span class="comment-time">2026-11-07 12:15</span>
+                    </div>
+                    <p class="comment-text">这个页面整理得挺清楚的，赛程和分类一目了然。之前找每日大赛入口要翻好几个地方，现在直接从这里进就行。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">M</span> 木子李</div>
+                        <span class="comment-time">2026-11-07 11:02</span>
+                    </div>
+                    <p class="comment-text">才艺夜第48期的选手风格差异好大，有人走技术流有人走情绪流。个人更喜欢后者，但技术流的票数好像更高。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">F</span> 风过留痕</div>
+                        <span class="comment-time">2026-11-07 09:47</span>
+                    </div>
+                    <p class="comment-text">脑力赛这期逻辑题占比太高了，对文科生不太友好。建议下次平衡一下题型分布，多来点常识类的。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">Q</span> 青柠气泡</div>
+                        <span class="comment-time">2026-11-06 22:30</span>
+                    </div>
+                    <p class="comment-text">关注每日大赛有一阵子了，感觉最近电竞类的内容变多了，希望别把才艺和创意类的资源挤掉，毕竟受众不一样。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">Z</span> 张慢玉</div>
+                        <span class="comment-time">2026-11-06 20:18</span>
+                    </div>
+                    <p class="comment-text">页面改版后找比赛方便多了，最新动态那个列表很实用。希望以后能加上订阅提醒功能，怕错过投票时间。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">H</span> 何同学在摸鱼</div>
+                        <span class="comment-time">2026-11-06 18:05</span>
+                    </div>
+                    <p class="comment-text">城市切片的线下展映有人去过吗？值不值得专门跑一趟？线上看和线下氛围应该差别挺大的。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">T</span> 桃子汽水</div>
+                        <span class="comment-time">2026-11-05 21:40</span>
+                    </div>
+                    <p class="comment-text">才艺夜这期的国风节目服化道比上期精致，但整体节奏稍微有点拖。中间那个互动环节其实可以砍掉。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">W</span> 五毛钱特效</div>
+                        <span class="comment-time">2026-11-05 19:22</span>
+                    </div>
+                    <p class="comment-text">峡谷争霸的赛制说明写得有点简略，关于平局怎么处理没讲清楚。希望报名截止前能补一份完整的规则文档。</p>
+                </div>
+                <div class="comment-item">
+                    <div class="comment-header">
+                        <div class="comment-user"><span class="user-avatar">O</span> 欧阳菜菜</div>
+                        <span class="comment-time">2026-11-05 16:10</span>
+                    </div>
+                    <p class="comment-text">原创音乐擂台的评委点评环节是我最期待的，有时候点评比歌本身还有意思。明晚蹲一个直播。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 相关资讯 -->
+        <section id="news" class="section">
+            <div class="section-header">
+                <h2 class="section-title">相关资讯</h2>
+            </div>
+            <div class="news-grid">
+                <div class="news-item">
+                    <div class="news-date">2026-11-07</div>
+                    <h4>每日大赛国内最新入口 新增赛程筛选功能</h4>
+                    <p>用户现在可以通过分类标签快速筛选目标赛事类型，移动端操作体验同步优化。官方表示后续还将加入订阅提醒。</p>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">2026-11-07</div>
+                    <h4>星耀才艺夜第48期 国风主题引发讨论</h4>
+                    <p>本期选手在传统乐器与现代表演形式上做了融合尝试，部分节目在社交平台获得较高转发。投票截止时间为今晚22:00。</p>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">2026-11-06</div>
+                    <h4>脑力突围赛 逻辑题难度调整说明</h4>
+                    <p>赛事组回应选手反馈，表示后续场次将平衡题型分布，增加生活常识与语言类题目，避免单一类型占比过高。</p>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">2026-11-06</div>
+                    <h4>造物者大赛秋季赛 线下展览预约开启</h4>
+                    <p>入围作品将于11月12日进行线下展出，免费预约通道已在活动页面开放，名额有限，先到先得。</p>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">2026-11-05</div>
+                    <h4>峡谷争霸5v5 报名截止时间延长至11月10日</h4>
+                    <p>为满足更多玩家参赛需求，组委会决定延长报名窗口。目前已有超过320支队伍提交申请，比赛将于11月中旬开打。</p>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">2026-11-05</div>
+                    <h4>城市切片影像赛 优秀作品将获推荐展示</h4>
+                    <p>主办方宣布，部分入围短片将在合作视频平台进行专题展映，具体片单和上线时间将在近期公布。</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="site-container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <span class="brand-icon">51</span>
+                        <span>每日大赛</span>
+                    </div>
+                    <p>51每日大赛国内最新入口 · 聚合每日热门赛事、参赛指南与实时榜单。页面内容仅供参考，赛事规则与结果以主办方公布为准。</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h5>快速导航</h5>
+                        <a href="/#hero">首页</a>
+                        <a href="/#hot">热门推荐</a>
+                        <a href="/#latest">最新动态</a>
+                        <a href="/#categories">分类入口</a>
+                    </div>
+                    <div class="footer-col">
+                        <h5>帮助</h5>
+                        <a href="/#faq">常见问题</a>
+                        <a href="/#guide">体验指南</a>
+                        <a href="/#comments">用户评论</a>
+                        <a href="/#news">相关资讯</a>
+                    </div>
+                    <div class="footer-col">
+                        <h5>友情链接</h5>
+                        <a href="/#hero">大赛首页</a>
+                        <a href="/#hero">参赛入口</a>
+                        <a href="/#hero">排行榜</a>
+                        <a href="/#hero">赛事日历</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 51每日大赛国内最新入口 · 内容聚合页面</span>
+                <span>免责声明：本页面不存储任何赛事视频，所有链接指向官方或公开渠道。</span>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</body>
+                      </html>
